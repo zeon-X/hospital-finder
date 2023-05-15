@@ -1,0 +1,302 @@
+[
+    {
+        "id": "1",
+        "district_name": "Dhaka",
+        "district_image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ix298V0tvKrE/v1/1200x-1.jpg",
+        "hospitals": [
+            {
+                "id": "1",
+                "cover_image": "https://new-media.dhakatribune.com/en/uploads/2022/02/01/dmch-1-2.jpeg",
+                "name": "Dhaka Medical College",
+                "total_seat": 800,
+                "available_seat": 120,
+                "address": "Central Shaheed Minar, Bongobazar, Dhaka",
+                "details": {
+                    "details_cover_image": "https://new-media.dhakatribune.com/en/uploads/2022/02/01/dmch-1-2.jpeg",
+                    "about": {
+                        "about_img": "https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2022/01/31/dmch-undergoing-huge-expansion_0.png",
+                        "about_details": "The college's original building was built before the Partition of Bengal of 1905. As of 1904, the building was being used as the secretariat (headquarters) of the newly formed provinces of East Bengal and Assam. "
+                    },
+                    "contact": {
+                        "contact_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/DMC1.jpg/800px-DMC1.jpg",
+                        "contact_details": {
+                            "location": {
+                                "lan": "",
+                                "long": ""
+                            },
+                            "address": "Central Shaheed Minar, Bongobazar, Dhaka",
+                            "phone": "01797175883",
+                            "email": "dmc@gmail.com"
+                        }
+                    },
+                    "services": {
+                        "services_cover_img": "",
+                        "services_data": [
+                            {
+                                "id": "1",
+                                "service_name": "Ortho - Oncology.",
+                                "service_moto": "Combining the Extensive experience of Oncologists with World-class facilities",
+                                "service_details": "Oncology is the branch of medicine that specialises in the study, treatment, and management of cancer right from the diagnosis of cancer to all the different treatments of cancer and palliative care. A doctor who specialises in oncology is called an oncologist. ",
+                                "servie_img": "https://cancercenter.gwu.edu/sites/g/files/zaskib721/files/styles/1140x600/public/2022-08/3d_render_biological_cell_1710x600.jpg?itok=z6cuzxie"
+                            },
+                            {
+                                "id": "2",
+                                "service_name": "Pain & Palliative care.",
+                                "service_moto": "Relieve from pain and other distressing symptoms.",
+                                "service_details": "The department of Pain and Palliative Care at Narayana Health addresses physical, psychological, social and spiritual aspects of symptoms .",
+                                "servie_img": "https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/952/cached.offlinehbpl.hbpl.co.uk/news/PGH/Chest_pain_cdp-20140508111137562.png"
+                            },
+                            {
+                                "id": "3",
+                                "service_name": "Pathology.",
+                                "service_moto": "Pathos- meaning suffering, and logos - meaning study.",
+                                "service_details": "Pathology is the branch of science that deals with scientific study of structure and function of the body in disease through laboratory examinations of samples of blood ,body fluids, tissues (biopsy samples), surgically removed organs, and in some cases the whole body (autopsy), for diagnostic or forensic purposes.",
+                                "servie_img": "https://medical.rossu.edu/sites/g/files/krcnkv261/files/styles/atge_3_2_crop_md/public/2022-04/Pathology.jpg?h=7f9656af&itok=E3Pgs3uF"
+                            }
+                        ]
+                    },
+                    "doctors": {
+                        "doctors_cover_image": "",
+                        "doctors_data": [
+                            {
+                                "id": "1",
+                                "doctor_name": "Prof. Dr. Md. Kamrul Islam",
+                                "doctor_specialization": "Urology (Kidneys, Ureters, Prostate), Kidney Transplant Specialist & Surgeon",
+                                "doctor_details": "Dhaka Medical College & Hospital",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Prof.-Dr.-Md.-Kamrul-Islam.jpg"
+                            },
+                            {
+                                "id": "2",
+                                "doctor_name": "Dr. Asma Khatun Aurora",
+                                "doctor_specialization": "Obstetrics & Gynaecology Specialist & Surgeon",
+                                "doctor_details": "MBBS, FCPS (Obstetrics & Gynaecology), BCS (Health), CMU (Ultrasound, BTEB)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Most.-Asma-Khatun.jpg"
+                            },
+                            {
+                                "id": "3",
+                                "doctor_name": "Dr. Md. Shahriar Siddiki",
+                                "doctor_specialization": "Medicine, Neuromedicine & Diabetes Specialist",
+                                "doctor_details": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Neurology - FP), CCD (BIRDEM), MRCP (UK)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Shahriar-Siddiki.jpg"
+                            },
+                            {
+                                "id": "4",
+                                "doctor_name": "Prof. Dr. M.N. Huda",
+                                "doctor_specialization": "Expert Dermatologist, Sexologist & Venereologist",
+                                "doctor_details": "MBBS (DMC), DDV (DU), FCPS (Skin & Sex)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/prof-dr-m-n-huda.jpg"
+                            },
+                            {
+                                "id": "3",
+                                "doctor_name": "Dr. Md. Shahriar Siddiki",
+                                "doctor_specialization": "Medicine, Neuromedicine & Diabetes Specialist",
+                                "doctor_details": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Neurology - FP), CCD (BIRDEM), MRCP (UK)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Shahriar-Siddiki.jpg"
+                            },
+                            {
+                                "id": "4",
+                                "doctor_name": "Dr. Md. Shahriar Siddiki Alom",
+                                "doctor_specialization": "Medicine, Neuromedicine & Diabetes Specialist",
+                                "doctor_details": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Neurology - FP), CCD (BIRDEM), MRCP (UK)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Shahriar-Siddiki.jpg"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "2",
+                "cover_image": "https://gumlet.assettype.com/bdnews24-english%2Fimport%2Fmedia%2F2020%2F04%2F30%2Fmugda-general-hospital-300420-01.jpg",
+                "name": "Mugdha Medical College",
+                "total_seat": 1200,
+                "available_seat": 400,
+                "address": "Sabujbag, Mugdha, Dhaka",
+                "details": {
+                    "details_cover_image": "https://new-media.dhakatribune.com/en/uploads/2022/02/01/dmch-1-2.jpeg",
+                    "about": {
+                        "about_img": "https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2022/01/31/dmch-undergoing-huge-expansion_0.png",
+                        "about_details": "The college's original building was built before the Partition of Bengal of 1905. As of 1904, the building was being used as the secretariat (headquarters) of the newly formed provinces of East Bengal and Assam. "
+                    },
+                    "contact": {
+                        "contact_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/DMC1.jpg/800px-DMC1.jpg",
+                        "contact_details": {
+                            "location": {
+                                "lan": "",
+                                "long": ""
+                            },
+                            "address": "Sabujbag, Mugdha, Dhaka",
+                            "phone": "01797175883",
+                            "email": "dmc@gmail.com"
+                        }
+                    },
+                    "services": {
+                        "services_cover_img": "",
+                        "services_data": [
+                            {
+                                "id": "1",
+                                "service_name": "Ortho - Oncology.",
+                                "service_moto": "Combining the Extensive experience of Oncologists with World-class facilities",
+                                "service_details": "Oncology is the branch of medicine that specialises in the study, treatment, and management of cancer right from the diagnosis of cancer to all the different treatments of cancer and palliative care. A doctor who specialises in oncology is called an oncologist. ",
+                                "servie_img": "https://cancercenter.gwu.edu/sites/g/files/zaskib721/files/styles/1140x600/public/2022-08/3d_render_biological_cell_1710x600.jpg?itok=z6cuzxie"
+                            },
+                            {
+                                "id": "2",
+                                "service_name": "Pain & Palliative care.",
+                                "service_moto": "Relieve from pain and other distressing symptoms.",
+                                "service_details": "The department of Pain and Palliative Care at Narayana Health addresses physical, psychological, social and spiritual aspects of symptoms .",
+                                "servie_img": "https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/952/cached.offlinehbpl.hbpl.co.uk/news/PGH/Chest_pain_cdp-20140508111137562.png"
+                            },
+                            {
+                                "id": "3",
+                                "service_name": "Pathology.",
+                                "service_moto": "Pathos- meaning suffering, and logos - meaning study.",
+                                "service_details": "Pathology is the branch of science that deals with scientific study of structure and function of the body in disease through laboratory examinations of samples of blood ,body fluids, tissues (biopsy samples), surgically removed organs, and in some cases the whole body (autopsy), for diagnostic or forensic purposes.",
+                                "servie_img": "https://medical.rossu.edu/sites/g/files/krcnkv261/files/styles/atge_3_2_crop_md/public/2022-04/Pathology.jpg?h=7f9656af&itok=E3Pgs3uF"
+                            }
+                        ]
+                    },
+                    "doctors": {
+                        "doctors_cover_image": "",
+                        "doctors_data": [
+                            {
+                                "id": "1",
+                                "doctor_name": "Prof. Dr. Md. Kamrul Islam",
+                                "doctor_specialization": "Urology (Kidneys, Ureters, Prostate), Kidney Transplant Specialist & Surgeon",
+                                "doctor_details": "Dhaka Medical College & Hospital",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Prof.-Dr.-Md.-Kamrul-Islam.jpg"
+                            },
+                            {
+                                "id": "2",
+                                "doctor_name": "Dr. Asma Khatun Aurora",
+                                "doctor_specialization": "Obstetrics & Gynaecology Specialist & Surgeon",
+                                "doctor_details": "MBBS, FCPS (Obstetrics & Gynaecology), BCS (Health), CMU (Ultrasound, BTEB)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Most.-Asma-Khatun.jpg"
+                            },
+                            {
+                                "id": "3",
+                                "doctor_name": "Dr. Md. Shahriar Siddiki",
+                                "doctor_specialization": "Medicine, Neuromedicine & Diabetes Specialist",
+                                "doctor_details": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Neurology - FP), CCD (BIRDEM), MRCP (UK)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Shahriar-Siddiki.jpg"
+                            },
+                            {
+                                "id": "4",
+                                "doctor_name": "Prof. Dr. M.N. Huda",
+                                "doctor_specialization": "Expert Dermatologist, Sexologist & Venereologist",
+                                "doctor_details": "MBBS (DMC), DDV (DU), FCPS (Skin & Sex)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/prof-dr-m-n-huda.jpg"
+                            },
+                            {
+                                "id": "3",
+                                "doctor_name": "Dr. Md. Shahriar Siddiki",
+                                "doctor_specialization": "Medicine, Neuromedicine & Diabetes Specialist",
+                                "doctor_details": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Neurology - FP), CCD (BIRDEM), MRCP (UK)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Shahriar-Siddiki.jpg"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "district_name": "Rajshahi",
+        "district_image": "https://dailyasianage.com/library/1662403733_8.jpg",
+        "hospitals": [
+            {
+                "id": "1",
+                "cover_image": "https://new-media.dhakatribune.com/en/uploads/2022/02/01/dmch-1-2.jpeg",
+                "name": "Dhaka Medical College",
+                "total_seat": 800,
+                "available_seat": 120,
+                "address": "Central Shaheed Minar, Bongobazar, Dhaka",
+                "details": {
+                    "details_cover_image": "https://new-media.dhakatribune.com/en/uploads/2022/02/01/dmch-1-2.jpeg",
+                    "about": {
+                        "about_img": "https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2022/01/31/dmch-undergoing-huge-expansion_0.png",
+                        "about_details": "The college's original building was built before the Partition of Bengal of 1905. As of 1904, the building was being used as the secretariat (headquarters) of the newly formed provinces of East Bengal and Assam. "
+                    },
+                    "contact": {
+                        "contact_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/DMC1.jpg/800px-DMC1.jpg",
+                        "contact_details": {
+                            "location": {
+                                "lan": "",
+                                "long": ""
+                            },
+                            "address": "Central Shaheed Minar, Bongobazar, Dhaka",
+                            "phone": "01797175883",
+                            "email": "dmc@gmail.com"
+                        }
+                    },
+                    "services": {
+                        "services_cover_img": "",
+                        "services_data": [
+                            {
+                                "id": "1",
+                                "service_name": "Ortho - Oncology.",
+                                "service_moto": "Combining the Extensive experience of Oncologists with World-class facilities",
+                                "service_details": "Oncology is the branch of medicine that specialises in the study, treatment, and management of cancer right from the diagnosis of cancer to all the different treatments of cancer and palliative care. A doctor who specialises in oncology is called an oncologist. ",
+                                "servie_img": "https://cancercenter.gwu.edu/sites/g/files/zaskib721/files/styles/1140x600/public/2022-08/3d_render_biological_cell_1710x600.jpg?itok=z6cuzxie"
+                            },
+                            {
+                                "id": "2",
+                                "service_name": "Pain & Palliative care.",
+                                "service_moto": "Relieve from pain and other distressing symptoms.",
+                                "service_details": "The department of Pain and Palliative Care at Narayana Health addresses physical, psychological, social and spiritual aspects of symptoms .",
+                                "servie_img": "https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/952/cached.offlinehbpl.hbpl.co.uk/news/PGH/Chest_pain_cdp-20140508111137562.png"
+                            },
+                            {
+                                "id": "3",
+                                "service_name": "Pathology.",
+                                "service_moto": "Pathos- meaning suffering, and logos - meaning study.",
+                                "service_details": "Pathology is the branch of science that deals with scientific study of structure and function of the body in disease through laboratory examinations of samples of blood ,body fluids, tissues (biopsy samples), surgically removed organs, and in some cases the whole body (autopsy), for diagnostic or forensic purposes.",
+                                "servie_img": "https://medical.rossu.edu/sites/g/files/krcnkv261/files/styles/atge_3_2_crop_md/public/2022-04/Pathology.jpg?h=7f9656af&itok=E3Pgs3uF"
+                            }
+                        ]
+                    },
+                    "doctors": {
+                        "doctors_cover_image": "",
+                        "doctors_data": [
+                            {
+                                "id": "1",
+                                "doctor_name": "Prof. Dr. Md. Kamrul Islam",
+                                "doctor_specialization": "Urology (Kidneys, Ureters, Prostate), Kidney Transplant Specialist & Surgeon",
+                                "doctor_details": "Dhaka Medical College & Hospital",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Prof.-Dr.-Md.-Kamrul-Islam.jpg"
+                            },
+                            {
+                                "id": "2",
+                                "doctor_name": "Dr. Asma Khatun Aurora",
+                                "doctor_specialization": "Obstetrics & Gynaecology Specialist & Surgeon",
+                                "doctor_details": "MBBS, FCPS (Obstetrics & Gynaecology), BCS (Health), CMU (Ultrasound, BTEB)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Most.-Asma-Khatun.jpg"
+                            },
+                            {
+                                "id": "3",
+                                "doctor_name": "Dr. Md. Shahriar Siddiki",
+                                "doctor_specialization": "Medicine, Neuromedicine & Diabetes Specialist",
+                                "doctor_details": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Neurology - FP), CCD (BIRDEM), MRCP (UK)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Shahriar-Siddiki.jpg"
+                            },
+                            {
+                                "id": "4",
+                                "doctor_name": "Prof. Dr. M.N. Huda",
+                                "doctor_specialization": "Expert Dermatologist, Sexologist & Venereologist",
+                                "doctor_details": "MBBS (DMC), DDV (DU), FCPS (Skin & Sex)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/prof-dr-m-n-huda.jpg"
+                            },
+                            {
+                                "id": "3",
+                                "doctor_name": "Dr. Md. Shahriar Siddiki",
+                                "doctor_specialization": "Medicine, Neuromedicine & Diabetes Specialist",
+                                "doctor_details": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Neurology - FP), CCD (BIRDEM), MRCP (UK)",
+                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Shahriar-Siddiki.jpg"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+]

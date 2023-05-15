@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="keywords" content="HOSPITAL,Hospital Finder,HOSPITAL WEBSITE, MEDICAN">
+	<meta name="description" content="india's best hospital website of indian">
+	<meta name="author" content="homepage">
+	<title>Hospital finder</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+
+<body>
+	<!-- Start Header Coding-->
+	<header id="header">
+	</header>
+
+
+	<!-- End Header Coding-->
+	<!-- Start Section Coding-->
+	<section>
+		<div class="w-80 mb-5" style="padding: 0;">
+			<div class="section-img">
+				<div class="section-bg-box">
+					<h1 class="animated slideInLeft py-2">Health Care Services</h1>
+					<h2 class="animated slideInRight py-1">We Care About Your Health</h2>
+
+
+					<div class="mt-5">
+						<div class="d-flex center gap-3 justify-content-center align-items-start">
+
+							<div>
+								<input id="searchDistrict" type="text" class="form-control py-2 px-4"
+									style="width: 300px;" placeholder="Search">
+								<ul id="suggestions" class="bg-white">
+								</ul>
+							</div>
+							<button id="searchBtn" class="btn search-btn py-2 px-4">Search</button>
+
+
+						</div>
+					</div>
+
+
+
+				</div>
+			</div>
+			<!-- text decoration coding -->
+
+			<h1 style="border: radius 1px;" class="welcome-text p-2 mx-auto mt-5 mb-3 text-center">WELCOME TO
+				HOSPITAL FINDER
+			</h1>
+
+			<p>
+				Here you can find available seat number in any hospitals of your locality. You can also found the
+				details of yours searched hospital. Just go to the <a href="district-list.html">District List</a>.
+			</p>
+
+			<h1 class="welcome-text p-2 text-center mx-auto mt-5 mb-3">about us</h1>
+
+			<h2>Best Medical & Health care Needs to Our Patients</h2>
+			<div class="">
+				<div>
+					<p>
+						sometimes in emergency moments we dont get any vacant cabin or seat in ours Nearby
+						hospitals.so we need to know if the other hospital of the same loacality is avaiable so that we
+						can find a vacant seat tosave the life of paitents.In this case this website will be very
+						helpful for the people.
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- End Section Coding-->
+	<!-- Start Footer Coding-->
+	<footer id="footer">
+
+	</footer>
+	<!-- End footer Coding-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/minisearch@6.0.1/dist/umd/index.min.js"></script>
+
+
+
+	<script>
+
+		let searchDistrict = document.getElementById("searchDistrict");
+		let suggestionsDistrict = document.getElementById("suggestions");
+		let searchBtn = document.getElementById("searchBtn");
+
+
+		let miniSearch = new MiniSearch({
+			fields: ["district_name"], // fields to index for full-text search
+			storeFields: ["district_name", "id"], // fields to return with search results
+		});
+
+
+
+		fetch("./json/main.json")
+			.then((res) => {
+				return res.json();
+			})
+			.then((d) => {
+				miniSearch.addAll(d);
+			})
+			.catch((error) => {
+				console.log("error");
+				console.log(error);
+			});
+
+
+		searchDistrict.addEventListener("keyup", (e) => {
+			const suggestions = miniSearch.autoSuggest(e.target.value);
+			console.log(suggestions);
+
+
+			const searchResultHtml = suggestions.map((x) => {
+				return `
+				<li>
+					<a 
+					style="text-decoration: none; color:red;"
+					 href="./hospital-lists.html?d_name=${x.suggestion}&d_id=${x.suggestion}" 
+					 >
+					 ${x.suggestion}
+					</a>
+				</li>
+				`;
+			});
+			suggestionsDistrict.innerHTML = searchResultHtml.join("");
+		});
+
+		searchBtn.addEventListener("click", () => {
+			let searchInput = searchDistrict.value;
+			let searchResult = miniSearch.search(searchInput);
+
+			//console.log(searchResult[0]);
+
+			if (searchResult.length > 0) {
+				let hrefLink = `./hospital-lists.html?d_name=${searchResult[0].district_name}&d_id=${searchResult[0].id}`
+				window.location.replace(hrefLink)
+			}
+		});
+
+
+	</script>
+
+
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
