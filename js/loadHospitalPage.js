@@ -62,6 +62,9 @@ const loadBasic = (data) => {
   conct_add.innerText = data.address;
   conct_email.innerText = data.details.contact.contact_details.email;
   conct_phone.innerText = data.details.contact.contact_details.phone;
+
+  let x = document.getElementById("hosMapid");
+  x.src = `https://maps.google.com/maps?q=${data.details.contact.contact_details.location.map}&hl=es;z=14&output=embed`;
 };
 
 const loadCoverAndAbout = (imgsrc, aboutImg, about) => {

@@ -21,8 +21,7 @@
                         "contact_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/DMC1.jpg/800px-DMC1.jpg",
                         "contact_details": {
                             "location": {
-                                "lan": "",
-                                "long": ""
+                                "map": "23.72483800725872, 90.39766699071663"
                             },
                             "address": "Central Shaheed Minar, Bongobazar, Dhaka",
                             "phone": "01797175883",
@@ -78,27 +77,6 @@
                                 "doctor_specialization": "Medicine, Neuromedicine & Diabetes Specialist",
                                 "doctor_details": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Neurology - FP), CCD (BIRDEM), MRCP (UK)",
                                 "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Shahriar-Siddiki.jpg"
-                            },
-                            {
-                                "id": "4",
-                                "doctor_name": "Prof. Dr. M.N. Huda",
-                                "doctor_specialization": "Expert Dermatologist, Sexologist & Venereologist",
-                                "doctor_details": "MBBS (DMC), DDV (DU), FCPS (Skin & Sex)",
-                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/prof-dr-m-n-huda.jpg"
-                            },
-                            {
-                                "id": "3",
-                                "doctor_name": "Dr. Md. Shahriar Siddiki",
-                                "doctor_specialization": "Medicine, Neuromedicine & Diabetes Specialist",
-                                "doctor_details": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Neurology - FP), CCD (BIRDEM), MRCP (UK)",
-                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Shahriar-Siddiki.jpg"
-                            },
-                            {
-                                "id": "4",
-                                "doctor_name": "Dr. Md. Shahriar Siddiki Alom",
-                                "doctor_specialization": "Medicine, Neuromedicine & Diabetes Specialist",
-                                "doctor_details": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Neurology - FP), CCD (BIRDEM), MRCP (UK)",
-                                "doctor_img": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Md.-Shahriar-Siddiki.jpg"
                             }
                         ]
                     }
@@ -121,8 +99,7 @@
                         "contact_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/DMC1.jpg/800px-DMC1.jpg",
                         "contact_details": {
                             "location": {
-                                "lan": "",
-                                "long": ""
+                                "map": "23.73246586668502, 90.43010965274793"
                             },
                             "address": "Sabujbag, Mugdha, Dhaka",
                             "phone": "01797175883",
@@ -221,8 +198,7 @@
                         "contact_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/DMC1.jpg/800px-DMC1.jpg",
                         "contact_details": {
                             "location": {
-                                "lan": "",
-                                "long": ""
+                                "map": "23.72483800725872, 90.39766699071663"
                             },
                             "address": "Central Shaheed Minar, Bongobazar, Dhaka",
                             "phone": "01797175883",
