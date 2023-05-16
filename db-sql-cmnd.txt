@@ -1,0 +1,24 @@
+CREATE TABLE user (
+    name varchar(100),
+    email varchar(100),
+    password varchar(100),
+    role int(2),
+    hospital_name varchar(100),
+    address varchar(200),
+    mobile varchar(12),
+    district varchar(100),
+    PRIMARY KEY(email)
+) 
+
+
+CREATE TABLE appointment (
+    name varchar(100),
+    email varchar(100),
+    date varchar(12),
+    doctor varchar(100),
+    message varchar(500),
+    hid varchar(12),
+    did varchar(12),
+    id varchar(12),
+    PRIMARY KEY(id)
+) 
