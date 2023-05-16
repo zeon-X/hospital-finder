@@ -1,3 +1,5 @@
+COMMAND FOR CREATING user TABLE
+
 CREATE TABLE user (
     name varchar(100),
     email varchar(100),
@@ -11,6 +13,9 @@ CREATE TABLE user (
 ) 
 
 
+
+COMMAND FOR CREATING appointment TABLE
+
 CREATE TABLE appointment (
     name varchar(100),
     email varchar(100),
@@ -22,3 +27,11 @@ CREATE TABLE appointment (
     id varchar(12),
     PRIMARY KEY(id)
 ) 
+
+
+
+GIT PUSH COMMAND
+
+git add .
+git commit -m "updated"
+git push
